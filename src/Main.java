@@ -28,6 +28,7 @@ public class Main {
                 }
             }
             if (ocenka > 0) {
+                //средний балл
                 double bal = stud / ocenka;
                 System.out.printf("Средний балл по классу: %.2f\n", bal);
             } else {
